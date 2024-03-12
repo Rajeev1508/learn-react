@@ -26,3 +26,7 @@ import hooks from react <br/>
          const [counter, setCounter] = useState(10); 
          // 2 things return in form of array 0->variable,           1->Method
 ```
+## React Router : enables "client side routing"
+<p>In traditional websites, the browser requests a document from a web server, downloads and evaluates CSS and JavaScript assets, and renders the HTML sent from the server. When the user clicks a link, it starts the process all over again for a new page.</br>Client side routing allows your app to update the URL from a link click without making another request for another document from the server. Instead, your app can immediately render some new UI and make data requests with 'fetch' to update the page with new information.</p>
+
+##### That is we don't use <a href> for production
